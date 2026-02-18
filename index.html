@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Свадебное приглашение</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Первая секция -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Алия & Самат</h1>
+      <p>15 июня 2026</p>
+  
+    </div>
+  </section>
+
+  <!-- Вторая секция -->
+  <section class="second" id="second">
+    <div class="overlay">
+      <h2>Мы будем рады видеть вас</h2>
+      <p>Подтвердите ваше присутствие</p>
+
+      <div class="buttons">
+        <button class="yes">Приду ✅</button>
+        <button class="no">Не приду 🙏</button>
+      </div>
+    </div>
+  </section>
+
+<script>
+function scrollToSecond() {
+  document.getElementById("second").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
